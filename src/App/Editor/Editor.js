@@ -1,12 +1,10 @@
 import React, { Fragment } from "react";
 
-// The editor core
 import Editor, { createEmptyState } from "ory-editor-core";
-import "ory-editor-core/lib/index.css"; // we also want to load the stylesheets
+import "ory-editor-core/lib/index.css";
 
 // The content state
 import content from "./content.js";
-import "./styles.css";
 
 import plugins from "./Plugins";
 import Controls from "./Controls";

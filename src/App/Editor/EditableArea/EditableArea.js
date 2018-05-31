@@ -8,7 +8,7 @@ const EditableArea = ({ editor }) => {
         editor={editor}
         id="1"
         onChange={state => {
-          console.log(state);
+          // console.log(JSON.stringify(state));
         }}
       />
     </div>

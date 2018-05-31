@@ -29,9 +29,9 @@
     "react-tap-event-plugin": "3.0.3"
   },
   "devDependencies": {
-    "source-map-explorer": "1.5.0",
     "autoprefixer": "8.5.2",
     "babel-eslint": "8.2.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
     "babel-preset-react-app": "3.1.1",
     "eslint": "4.19.1",
     "eslint-config-react-app": "2.1.0",
@@ -40,13 +40,18 @@
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.8.2",
     "parcel-bundler": "1.8.1",
-    "rimraf": "2.6.2"
+    "source-map-explorer": "1.5.0"
   },
   "postcss": {
     "modules": false,
     "plugins": {
       "autoprefixer": {
-        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
         "flexbox": "no-2009"
       }
     }
