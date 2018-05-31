@@ -1,10 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-const App = () => {
-  return (
-    <div>
-      <h1>Hello Pdarcel</h1>
-    </div>
-  );
-};
-render(<App />, document.getElementById("app"));
+import App from "./App";
+
+render(<App />, document.getElementById("page-editor"));

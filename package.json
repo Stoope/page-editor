@@ -5,18 +5,48 @@
   "author": "Stepan Kurennykh <s.kurennykh@e-mba.ru>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "cross-env rimraf dist && parcel build ./src/index.html"
+    "dev": "rm -r dist/ && parcel ./src/index.html",
+    "build": "rm -r dist/ && parcel build ./src/index.html"
   },
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "babel-polyfill": "6.26.0",
+    "material-ui": "0.20.1",
+    "ory-editor": "0.2.27",
+    "ory-editor-core": "0.2.27",
+    "ory-editor-plugins-default-native": "0.2.27",
+    "ory-editor-plugins-divider": "0.2.27",
+    "ory-editor-plugins-html5-video": "0.2.27",
+    "ory-editor-plugins-image": "0.2.27",
+    "ory-editor-plugins-parallax-background": "0.2.27",
+    "ory-editor-plugins-slate": "0.2.27",
+    "ory-editor-plugins-spacer": "0.2.27",
+    "ory-editor-plugins-video": "0.2.27",
+    "ory-editor-renderer": "0.2.27",
+    "ory-editor-ui": "0.2.27",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-tap-event-plugin": "3.0.3"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "cross-env": "^5.1.6",
-    "parcel-bundler": "^1.8.1",
-    "rimraf": "^2.6.2"
+    "autoprefixer": "8.5.2",
+    "babel-eslint": "8.2.3",
+    "babel-preset-react-app": "3.1.1",
+    "eslint": "4.19.1",
+    "eslint-config-react-app": "2.1.0",
+    "eslint-plugin-flowtype": "2.48.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.8.2",
+    "parcel-bundler": "1.8.1",
+    "rimraf": "2.6.2"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
+        "flexbox": "no-2009"
+      }
+    }
   }
 }
