@@ -5,6 +5,7 @@
   "author": "Stepan Kurennykh <s.kurennykh@e-mba.ru>",
   "license": "MIT",
   "scripts": {
+    "analyze": "source-map-explorer dist/src.*.js dist/src.*.map",
     "dev": "rm -r dist/ && parcel ./src/index.html",
     "build": "rm -r dist/ && parcel build ./src/index.html"
   },
@@ -28,6 +29,7 @@
     "react-tap-event-plugin": "3.0.3"
   },
   "devDependencies": {
+    "source-map-explorer": "1.5.0",
     "autoprefixer": "8.5.2",
     "babel-eslint": "8.2.3",
     "babel-preset-react-app": "3.1.1",
