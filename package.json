@@ -27,7 +27,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-tap-event-plugin": "3.0.3",
-    "server": "^1.0.18"
+    "serve": "^9.1.0"
   },
   "devDependencies": {
     "autoprefixer": "8.5.2",
