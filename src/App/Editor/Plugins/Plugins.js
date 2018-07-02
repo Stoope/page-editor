@@ -7,14 +7,15 @@ import {
   Video,
   Spacer,
   Background,
-  Button
+  Button,
+  Carousel
 } from "ory-editor-plugins";
 // } from "ory-editor-plugins/plugins/viewOnly";
 import "ory-editor-plugins/plugins/index.css";
 
 // Define which plugins we want to use (all of the above)
 const plugins = {
-  content: [Image, Text, Video, Spacer, Button],
+  content: [Image, Text, Video, Spacer, Button, Carousel],
   layout: [Background],
   native
 };

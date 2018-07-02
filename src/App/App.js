@@ -8,3 +8,5 @@ const App = () => (
 );
 
 export default App;
+//yarn build
+//git push heroku master
