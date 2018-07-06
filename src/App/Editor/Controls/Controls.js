@@ -5,9 +5,9 @@ import "ory-editor-ui/lib/index.css";
 
 const Controls = ({ editor }) => (
   <div>
-    <Trash editor={editor} />
+    {/* <Trash editor={editor} /> */}
     <DisplayModeToggle editor={editor} />
-    <Toolbar editor={editor} />
+    {/* <Toolbar editor={editor} /> */}
   </div>
 );
 

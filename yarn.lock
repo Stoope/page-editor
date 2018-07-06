@@ -3675,21 +3675,13 @@ ory-editor-plugins-default-native@0.2.27, ory-editor-plugins-default-native@v0.2
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-default-native/-/ory-editor-plugins-default-native-0.2.27.tgz#f3cc8fe43e662e92733efac5b13e66bb6c8f9ed8"
 
-ory-editor-plugins-divider@0.2.27, ory-editor-plugins-divider@v0.2.27:
+ory-editor-plugins-divider@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-divider/-/ory-editor-plugins-divider-0.2.27.tgz#40e187b3a82bd1d5a661d20a4c07a8e79c781b9a"
   dependencies:
     material-ui "^0.19.1"
 
-ory-editor-plugins-html5-video@0.2.27:
-  version "0.2.27"
-  resolved "https://registry.yarnpkg.com/ory-editor-plugins-html5-video/-/ory-editor-plugins-html5-video-0.2.27.tgz#35374a04c4cbaacb87ad77dccb233f8352246a83"
-  dependencies:
-    material-ui "^0.19.1"
-    ory-editor-core "^v0.2.27"
-    ory-editor-ui "^v0.2.27"
-
-ory-editor-plugins-image@0.2.27, ory-editor-plugins-image@v0.2.27:
+ory-editor-plugins-image@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-image/-/ory-editor-plugins-image-0.2.27.tgz#aaf2c69fe0e7b7c37cddfb6f44b6fbbc9e2007d6"
   dependencies:
@@ -3697,7 +3689,7 @@ ory-editor-plugins-image@0.2.27, ory-editor-plugins-image@v0.2.27:
     ory-editor-core "^v0.2.27"
     ory-editor-ui "^v0.2.27"
 
-ory-editor-plugins-parallax-background@0.2.27, ory-editor-plugins-parallax-background@v0.2.27:
+ory-editor-plugins-parallax-background@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-parallax-background/-/ory-editor-plugins-parallax-background-0.2.27.tgz#ed080d6d42fb88da397d5c4ae4348b11f7e37b58"
   dependencies:
@@ -3705,7 +3697,7 @@ ory-editor-plugins-parallax-background@0.2.27, ory-editor-plugins-parallax-backg
     ory-editor-core "^v0.2.27"
     ory-editor-ui "^v0.2.27"
 
-ory-editor-plugins-slate@0.2.27, ory-editor-plugins-slate@v0.2.27:
+ory-editor-plugins-slate@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-slate/-/ory-editor-plugins-slate-0.2.27.tgz#aa3fb465be6b83899f495b73840eadd02d4233d9"
   dependencies:
@@ -3722,7 +3714,7 @@ ory-editor-plugins-slate@0.2.27, ory-editor-plugins-slate@v0.2.27:
     slate-edit-blockquote "^0.2.0"
     slate-edit-list "^0.7.1"
 
-ory-editor-plugins-spacer@0.2.27, ory-editor-plugins-spacer@v0.2.27:
+ory-editor-plugins-spacer@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-spacer/-/ory-editor-plugins-spacer-0.2.27.tgz#e3311ea47f45f5d9307b567feb48f3707c2ad7f9"
   dependencies:
@@ -3732,7 +3724,7 @@ ory-editor-plugins-spacer@0.2.27, ory-editor-plugins-spacer@v0.2.27:
     ory-editor-ui "^v0.2.27"
     react-resizable "^1.7.0"
 
-ory-editor-plugins-video@0.2.27, ory-editor-plugins-video@v0.2.27:
+ory-editor-plugins-video@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-plugins-video/-/ory-editor-plugins-video-0.2.27.tgz#cf4209bf2d69b3ddf1627c374bdae2c970edfa69"
   dependencies:
@@ -3748,7 +3740,7 @@ ory-editor-renderer@0.2.27, ory-editor-renderer@v0.2.27:
     classnames "^2.2.5"
     ory-editor-core "^v0.2.27"
 
-ory-editor-ui@0.2.27, ory-editor-ui@^v0.2.27, ory-editor-ui@v0.2.27:
+ory-editor-ui@^v0.2.27, ory-editor-ui@v0.2.27:
   version "0.2.27"
   resolved "https://registry.yarnpkg.com/ory-editor-ui/-/ory-editor-ui-0.2.27.tgz#136c2082b0f011ffe0a1d342f0c73cda77b1b819"
   dependencies:
