@@ -11,15 +11,12 @@
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
-    "material-ui": "0.20.1",
-    "ory-editor": "0.2.27",
     "ory-editor-core": "0.2.27",
     "ory-editor-plugins-default-native": "0.2.27",
     "ory-editor-renderer": "0.2.27",
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-tap-event-plugin": "3.0.3",
-    "serve": "^9.1.0"
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "serve": "9.2.0"
   },
   "devDependencies": {
     "autoprefixer": "8.5.2",
