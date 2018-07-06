@@ -7,9 +7,6 @@ import plugins from "./Plugins";
 import Controls from "./Controls";
 import EditableArea from "./EditableArea";
 
-var injectTapEventPlugin = require("react-tap-event-plugin");
-injectTapEventPlugin();
-
 class EditorComponent extends React.Component {
   state = { content: null };
   setContent = content => {
