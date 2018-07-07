@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "analyze": "source-map-explorer dist/src.*.js dist/src.*.map",
-    "dev": "rm -r dist/ && parcel ./src/index.html",
-    "build": "rm -r dist/ && parcel build ./src/index.html"
+    "start": "rm -rf dist/* && webpack-dev-server --mode development --watch-poll",
+    "build": "rm -rf dist/* && webpack --mode production --config ./webpack.config.prod.js"
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
@@ -19,30 +19,19 @@
     "serve": "9.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "8.6.5",
-    "babel-eslint": "8.2.5",
-    "babel-plugin-transform-class-properties": "6.24.1",
-    "babel-preset-react-app": "3.1.2",
-    "eslint": "5.0.1",
-    "eslint-config-react-app": "2.1.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.10.0",
-    "parcel-bundler": "1.9.4",
-    "source-map-explorer": "1.5.0"
-  },
-  "postcss": {
-    "modules": false,
-    "plugins": {
-      "autoprefixer": {
-        "browsers": [
-          ">1%",
-          "last 4 versions",
-          "Firefox ESR",
-          "not ie < 9"
-        ],
-        "flexbox": "no-2009"
-      }
-    }
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "css-loader": "1.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.4.1",
+    "optimize-css-assets-webpack-plugin": "4.0.3",
+    "style-loader": "0.21.0",
+    "uglifyjs-webpack-plugin": "1.2.7",
+    "webpack": "4.15.1",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "3.1.4"
   }
 }

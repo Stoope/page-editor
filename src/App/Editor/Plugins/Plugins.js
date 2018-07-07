@@ -11,7 +11,7 @@ import {
   Carousel
 } from "ory-editor-plugins";
 // } from "ory-editor-plugins/plugins/viewOnly";
-import "ory-editor-plugins/plugins/index.css";
+import "ory-editor-plugins/plugins/style.css";
 
 // Define which plugins we want to use (all of the above)
 const plugins = {
