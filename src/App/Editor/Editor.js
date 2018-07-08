@@ -11,7 +11,7 @@ class EditorComponent extends React.Component {
   state = { content: null };
   setContent = content => {
     this.setState({ content });
-    console.log(JSON.stringify(content));
+    // console.log(JSON.stringify(content));
   };
   getContent = () => JSON.stringify(this.state.content);
   createEditor = content => {

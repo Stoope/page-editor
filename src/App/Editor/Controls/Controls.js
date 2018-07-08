@@ -1,13 +1,12 @@
 import React from "react";
-// The default ui components
 import { Trash, DisplayModeToggle, Toolbar } from "ory-editor-ui";
 import "ory-editor-ui/lib/style.css";
 
 const Controls = ({ editor }) => (
   <div>
-    {/* <Trash editor={editor} /> */}
+    <Trash editor={editor} />
     <DisplayModeToggle editor={editor} />
-    {/* <Toolbar editor={editor} /> */}
+    <Toolbar editor={editor} />
   </div>
 );
 
