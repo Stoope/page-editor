@@ -1,2 +1,3 @@
-import Plugins from "./Plugins";
+import Plugins, { defaultPlugin } from "./Plugins";
+export { defaultPlugin };
 export default Plugins;

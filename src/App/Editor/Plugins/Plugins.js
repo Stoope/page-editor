@@ -8,7 +8,8 @@ import {
   Spacer,
   Background,
   Button,
-  Carousel
+  Carousel,
+  defaultPlugin
 } from "ory-editor-plugins";
 // } from "ory-editor-plugins/plugins/viewOnly";
 import "ory-editor-plugins/plugins/style.css";
@@ -20,4 +21,5 @@ const plugins = {
   native
 };
 
+export { defaultPlugin };
 export default plugins;

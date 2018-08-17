@@ -13,7 +13,7 @@ module.exports = {
   entry: path.join(__dirname, "src/index.js"),
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "page-builder.js"
   },
   optimization: {
     minimizer: [
@@ -47,7 +47,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "style.css"
+      filename: "page-builder.css"
     }),
     htmlPlugin
   ]
